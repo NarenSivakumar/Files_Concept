@@ -1,0 +1,13 @@
+Files Chapter:
+Files : Files is a collection of related information, that is stored in secondary memory.
+  Here, stream is playing a main role.
+  stream: which is act as a interface between primary and secondary memory.
+  stream --> it's character array / buffer.
+fopen(),fseek(),fclose(),ftell(),fgets(),fputs(),fgetc(),fputc(),fscanf(),fprintf().
+  ** operation which is involved with files:
+1. Open the file --> fopen()
+2. Read/Write operation on the file --> Character i/o stream : fputc(), fgetc(). 
+  -->string i/o stream : fputs(), fgets()
+  --> formatted i/o stream : fscanf(), fprintf()
+  --> record i/o stream : fread(), fwrite()
+3. Close the file --> fclose() also remove(), rewind(), ftell(), fseek()
