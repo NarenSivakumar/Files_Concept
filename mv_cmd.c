@@ -1,4 +1,4 @@
-//WAP to implement copy cmd using file concept
+//WAP to implement move cmd using file concept
 #include<stdio.h>
 
 int main()
